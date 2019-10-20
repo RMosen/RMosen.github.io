@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Richard Mosen</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel = "stylesheet"
+       type = "text/css"
+       href = "style.css" /> 
+    
+
+    <style>{}
+        
+    .homelogo{
+        max-width: 75vw;
+        max-height: 30vh;
+        height: auto;}
+        
+    .alc{
+        max-width: 60vw;
+        max-height: 60vh;
+        height: auto;
+        }
+        
+</style>    
+</head> 
+    
+<body>    
+<div id="left"></div>
+<div id="left2"></div>
+<div id="right"></div>
+<div id="right2"></div>
+  
+<center>
+    
+<pic><img src="pics/mosencomlogo.png"; class="homelogo";></pic><br>
+    
+
+<img src="pics/rainbowspin3.gif" class="alc" usemap="#map" />
+    
+    <map name="map">
+        <area alt="Sound Engineering" title="Sound Engineering" href="1" coords="972,176,176" shape="circle">
+        <area alt="?" title="?" href="2" coords="1775,1553,172" shape="circle">
+        <area alt="?" title="?" href="3" coords="968,2026,186" shape="circle">
+        <area alt="Contact" title="Contact" href="4" coords="176,1553,176" shape="circle">
+        <area alt="About" title="About" href="5" coords="172,624,176" shape="circle">
+        <area alt="Blog" title="Blog" href="6" coords="1775,638,176" shape="circle">
+    </map>
+
+ 
+    
+    
+</center> 
+    
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery.rwdImageMaps.min.js"></script> 
+<script>$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
+</script>
+</body>
+</html> 

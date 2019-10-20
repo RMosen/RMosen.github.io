@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'pix M 8pt';
+    src: url('font/MyFont.eot');
+    src: url('font/MyFont.eot?#iefix') format('embedded-opentype'),
+        url('font/MyFont.woff2') format('woff2'),
+        url('font/MyFont.woff') format('woff'),
+        url('font/MyFont.ttf') format('truetype'),
+        url('font/MyFont.svg') format('svg');}
+
+<style>{}
+
+.text{
+    color: #fffee0;}
+
+</style>
+
+    img{    /*Default Image Settings*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+
+
+    Body{
+        background-image: linear-gradient(#292929, #0f0f0f, #292929);}
+
+
+
+/* Border Stuff*/
+
+#left{
+	background-image: linear-gradient(cyan, magenta, red);
+	position:fixed;}
+	   #left{
+		top: 0; bottom: 0;
+		width: 10%;}
+		  #left { left: 0; }
+
+#left2{
+	background-color: #fffee0;
+	position:fixed;}
+	   #left2 {
+        top: 0; bottom: 0; left: 9.5%;
+		width: 0.5%;}
+		  #left { left: 0; }
+
+
+#right {
+	background-image: linear-gradient(cyan, magenta, red);
+	position:fixed;}
+	   #right {
+		top: 0; bottom: 0;
+		width: 10%;}
+		  #right { right: 0; }
+
+#right2 {
+	background-color: #fffee0;
+	position:fixed;}
+	   #right2 {
+		top: 0; bottom: 0; right: 9.5%;
+		width: 0.5%;}
+		  #right { right: 0; }
