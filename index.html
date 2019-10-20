@@ -50,13 +50,14 @@
     
 </center> 
     
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script type="text/javascript" src="../js/imageMapResizer.min.js"></script>
-	<script type="text/javascript">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.rwdImageMaps.min.js"></script>
+<script>
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
 
-		$('map').imageMapResize();
-
-	</script>
+});
+</script>
 
 </body>
 </html> 
