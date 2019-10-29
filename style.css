@@ -17,9 +17,11 @@
         background-color:#292929;
         background-size: contain;
         border-style: solid;
-        border-width: 20px;
+        border-width: 4%;
         border-color: #292929;
-        outline: 5px solid ivory;
+        outline-width: 1%;
+        outline-style: solid;
+        outline-color: white;
         position: absolute;
         top: 50%;
         left: 50%;
