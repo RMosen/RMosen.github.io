@@ -37,7 +37,7 @@
 
 
     Body{
-        background-image:url(pics/galaxy.jpg);
+        background-image: linear-gradient(black, red, black);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;}
