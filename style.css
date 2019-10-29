@@ -13,6 +13,21 @@
 .text{
     color: #fffee0;}
 
+     .info{
+        background-color:#292929;
+        background-size: contain;
+        border-style: solid;
+        border-width: 20px;
+        border-color: #292929;
+        outline: 5px solid ivory;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+         transform: translateX(-50%) translateY(-50%);}
+
+
 </style>
 
     img{    /*Default Image Settings*/
@@ -22,41 +37,9 @@
 
 
     Body{
-        background-image: linear-gradient(#0f0f0f, #292929, #0f0f0f);}
+        background-image:url(pics/galaxy.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;}
 
 
-
-/* Border Stuff*/
-
-#left{
-	background-image: linear-gradient(cyan, magenta, red);
-	position:fixed;}
-	   #left{
-		top: 0; bottom: 0;
-		width: 10%;}
-		  #left { left: 0; }
-
-#left2{
-	background-color: #fffee0;
-	position:fixed;}
-	   #left2 {
-        top: 0; bottom: 0; left: 9.5%;
-		width: 0.5%;}
-		  #left { left: 0; }
-
-
-#right {
-	background-image: linear-gradient(cyan, magenta, red);
-	position:fixed;}
-	   #right {
-		top: 0; bottom: 0;
-		width: 10%;}
-		  #right { right: 0; }
-
-#right2 {
-	background-color: #fffee0;
-	position:fixed;}
-	   #right2 {
-		top: 0; bottom: 0; right: 9.5%;
-		width: 0.5%;}
-		  #right { right: 0; }
