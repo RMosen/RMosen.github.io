@@ -39,7 +39,7 @@
     Body{
         background-image: linear-gradient(black, red, white, red, black);
         background-repeat: repeat;
-        background-size: cover;}
+        background-size: 100% 100%;}
         
 
 
