@@ -37,9 +37,8 @@
 
 
     Body{
-        background-image: linear-gradient(black, red, white, red, black);
-        background-repeat: no-repeat;
-        background-size: 100vw 100vh;}
+        background-image: url(pics/tiles.png);
+        background-repeat: repeat;}
         
 
 
