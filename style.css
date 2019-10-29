@@ -39,8 +39,15 @@
 
 
     Body{
-        background-image: url(pics/tiles.png);
-        background-repeat: repeat;}
+        background-image: 
+            linear-gradient(-70deg, cyan, black, black, black, magenta, black, black, black, cyan, black, black, black, magenta, black, black, black, cyan, black, black, black, magenta, black, black, black),
+            linear-gradient(70deg, cyan, black, black, black, magenta, black, black, black, cyan, black, black, black, magenta, black, black, black, cyan, black, black, black, magenta, black, black, black);
+        background-position:
+            left,
+            right;
+        background-size: 50vw;
+
+        background-repeat: no-repeat;}
         
 
 
