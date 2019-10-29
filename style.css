@@ -37,9 +37,9 @@
 
 
     Body{
-        background-image: linear-gradient(black, red, black);
+        background-image: linear-gradient(black, red, white, red, black);
         background-repeat: no-repeat;
-        background-size: cover;}
+        background-size: contain;}
         
 
 
