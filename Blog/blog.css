@@ -59,7 +59,7 @@
         border-color: white;
         background-color: white;
         font-family: 'Asap', sans-serif;  
-        font-size: 3vmin;
+        font-size: 2vmin;
         }
 
     .blogbox{
@@ -106,7 +106,7 @@
     
     h2{ /*blogbox header text*/
         color: aliceblue;
-        font-size: 2.1vmax;
+        font-size: 3.5vmin;
         max-height: 25%;
         font-family: 'Abel', sans-serif;
         width: 30%vw;
