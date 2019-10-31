@@ -27,7 +27,7 @@
         left:50%;
         transform: translate(-50%);
         width: 80vw;
-        height:13vh;
+        height:13vmin;
     
         background-color: #292929;
         border: 3px;
@@ -38,7 +38,7 @@
     
     .body{
         position: absolute;
-        top: 15vh;
+        top: 15vmin;
         left:50%;
         transform: translate(-50%);
         width: 80vw;
@@ -94,7 +94,7 @@
         margin-right: auto;}
 
     p1{ /*month year text*/
-        font-size: 5vh;
+        font-size: 5vmin;
         font-family: 'Fredericka the Great', cursive;
         background: -webkit-linear-gradient(navajowhite, navajowhite, grey, grey);
         -webkit-background-clip: text;
@@ -115,7 +115,7 @@
 
     p2{ /*Blogbox body text*/
         font-family: 'Asap', sans-serif;
-        font-size: 1.9vmax;
+        font-size: 3vmin;
         width: 68%;
         position: absolute;
         left: 30%;
