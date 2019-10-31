@@ -1,12 +1,13 @@
 <style>{}
 
     .bloglogo{ /*Words that say "Richard Mosen at top*/
-        max-height: 12vh;
+        max-height: 8vh;
         max-width: 20vw;
         height: auto;
         width: auto;
         position: relative;
-        left: 5%;
+        left: 2%;
+        top:15%
         }
 
     .bloghead{ /*Word that says "Blog" at top*/
@@ -17,6 +18,17 @@
         left:50%;
         transform: translate(-50%);
         background: -webkit-linear-gradient(cyan, cyan,grey, grey);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+    
+    .index{
+        font-size: 5vmin;
+        font-family: 'Fredericka the Great', cursive;
+        position: absolute;
+        top: 20%;
+        right: 2%;
+        background: -webkit-linear-gradient(magenta, magenta, grey, grey);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         }
@@ -115,13 +127,79 @@
     .row {
         white-space: nowrap;
         }
+
+    .title{
+       font-size: 5vmin;
+        font-family: 'Fredericka the Great', cursive;
+        color: aliceblue;
+        margin-left: 8%
+        }
+
+    .published{
+       font-size: 2vmin;
+        font-family: 'Fredericka the Great', cursive;
+        color: aliceblue;
+        margin-left: 8%
+        }
+
+    .linklist{
+        margin-left: 20%;
+        font-family: 'Asap', sans-serif;
+        font-size: 3vmax;
+        color: aliceblue;
+        }
+
+    .note{
+        margin-left: 20%;
+        margin-right: 20%;
+        font-family: 'Asap', sans-serif;
+        font-size: 1.5vmax;
+        color: aliceblue;
+        text-align: center;
+        }
+
+    .bodytext{
+        margin-left: 7%;
+        margin-right: 7%;
+        font-family: 'Asap', sans-serif;
+        font-size: 2vmax;
+        letter-spacing: 1px;
+        color: aliceblue;
+        word-wrap: break-word;
+        }
+
+    .left{
+        height:auto;
+        float:left;
+        }
+
+    .right{
+        height:auto;
+        float:right;
+        }
+
+    .by{
+        border: 3px;
+        border-style: inset;
+        border-color: brown;
+        width: 50%;
+        height: 15vh;
+        margin: 8%;
+        background-color: darkgrey;
+        color: black;
+        font-family: 'Abel', sans-serif;
+        font-size: 3.5vmin;
+    
+    }
+    
+    .author{
+        height: 15vh;
+        width:auto;
+        float: left;
+        margin-right: 3%;
+}
     
 </style>
-
-    img{ /*Default Image Settings*/
-        display: block;
-        margin-left: auto;
-        margin-right: auto;}
 
     p1{ /*month year text*/
         font-size: 5vmin;
