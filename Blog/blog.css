@@ -106,11 +106,13 @@
     
     h2{ /*blogbox header text*/
         color: aliceblue;
-        font-size: 2.5vmin;
+        font-size: 2.1vmax;
+        max-height: 25%;
         font-family: 'Abel', sans-serif;
         width: 30%vw;
         position: absolute;
         left: 30%;
+        top:-15px;
         }
 
     p2{ /*Blogbox body text*/
@@ -119,7 +121,7 @@
         width: 68%;
         position: absolute;
         left: 30%;
-        top: 20%;
+        top: 27%;
         }   
 
     Body{
