@@ -74,6 +74,16 @@
         font-size: 3vmin;
         }
 
+    .date{ /*month year text*/
+        font-size: 5vmin;
+        font-family: 'Fredericka the Great', cursive;
+        background: -webkit-linear-gradient(navajowhite, navajowhite, grey, grey);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 2vw;
+        max-width: 20vw;
+        }
+
     .blogbox{
         position: relative;
         left:5%;
@@ -201,15 +211,6 @@
     
 </style>
 
-    p1{ /*month year text*/
-        font-size: 5vmin;
-        font-family: 'Fredericka the Great', cursive;
-        background: -webkit-linear-gradient(navajowhite, navajowhite, grey, grey);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin: 2vw;
-        max-width: 20vw;
-        }
     
     h2{ /*blogbox header text*/
         color: aliceblue;
