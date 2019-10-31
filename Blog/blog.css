@@ -77,10 +77,13 @@
         border-style: outset;
         }
 
-    .teaser{
-        height: 25vh;
+    .teaser{ /*blogbox image*/
+        height: auto;
         width: auto;
+        max-width: 20vw;
         float: left;
+        position: absolute;
+        bottom: 0;
         }
     
 </style>
@@ -102,12 +105,20 @@
     
     h2{ /*blogbox header text*/
         color: aliceblue;
+        font-size: 150%;
         font-family: 'Abel', sans-serif;
+        width: 30%vw;
+        position: absolute;
+        left: 30%;
         }
 
     p2{ /*Blogbox body text*/
         font-family: 'Asap', sans-serif;
-        font-size: 2vh;
+        font-size: 120%;
+        width: 68%;
+        position: absolute;
+        left: 30%;
+        top: 20%;
         }   
 
     Body{
