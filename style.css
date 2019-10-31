@@ -10,18 +10,15 @@
 
 <style>{}
 
-.text{
-    color: #fffee0;}
+    .text{
+        color: #fffee0;}
 
-     .info{
-        background-color:#292929;
+    .info{
+        background-image:radial-gradient(#292929, #292929, #1a1a1a);
         background-size: contain;
-        border-style: solid;
-        border-width: 4%;
-        border-color: #292929;
         outline-width: 1%;
-        outline-style: solid;
-        outline-color: white;
+        outline-style: outset;
+        outline-color: navajowhite;
         position: absolute;
         top: 50%;
         left: 50%;

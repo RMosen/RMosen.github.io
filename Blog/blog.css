@@ -1,0 +1,116 @@
+<style>{}
+
+    .bloglogo{ /*Words that say "Richard Mosen at top*/
+        max-height: 12vh;
+        max-width: 20vw;
+        height: auto;
+        width: auto;
+        position: relative;
+        left: 5%;
+        }
+
+    .bloghead{ /*Word that says "Blog" at top*/
+        width: auto;
+        font-size: 9.5vh;
+        font-family: 'Fredericka the Great', cursive;
+        position: absolute;
+        top:0;
+        left:50%;
+        transform: translate(-50%);
+        background: -webkit-linear-gradient(cyan, cyan,grey, grey);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+
+    .header{
+        position: absolute;
+        top:0;
+        left:50%;
+        transform: translate(-50%);
+        width: 80vw;
+        height:13vh;
+    
+        background-color: #292929;
+        border: 3px;
+        border-top: 0px;
+        border-style: outset;
+        border-color: aquamarine;
+        }
+    
+    .body{
+        position: absolute;
+        top: 15vh;
+        left:50%;
+        transform: translate(-50%);
+        width: 80vw;
+        bottom: auto;
+    
+        background-color: #292929;
+        border: 3px;
+        border-style: outset;
+        border-color: aquamarine;
+        margin-bottom: 2vh;
+        }
+
+    .button{
+        margin: 0.5vw;
+        width: 10vw;
+        border: 2px;
+        border-style: outset;
+        border-color: white;
+        background-color: white;
+        font-family: 'Asap', sans-serif;  
+        }
+
+    .blogbox{
+        position: relative;
+        left:50%;
+        transform: translate(-50%);
+        height: 25vh;
+        width: 70vw;
+        background-image:linear-gradient(45deg, darkorange, #D47F04);
+        border: 3px;
+        border-color: aquamarine;
+        border-style: inset;
+        }
+        .blogbox:active {
+        border-style: outset;
+        }
+
+    .teaser{
+        height: 25vh;
+        width: auto;
+        float: left;
+        }
+    
+</style>
+
+    img{ /*Default Image Settings*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+
+    p1{ /*month year text*/
+        font-size: 5vh;
+        font-family: 'Fredericka the Great', cursive;
+        background: -webkit-linear-gradient(navajowhite, navajowhite, grey, grey);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 2vw;
+        max-width: 20vw;
+        }
+    
+    h2{ /*blogbox header text*/
+        color: aliceblue;
+        font-family: 'Abel', sans-serif;
+        }
+
+    p2{ /*Blogbox body text*/
+        font-family: 'Asap', sans-serif;
+        font-size: 2vh;
+        }   
+
+    Body{
+        background-image: 
+        linear-gradient(-45deg, black, black, white, black, black, black, red, black, black, black, white, black, black, black, red, black, black, black, white, black, black, black, red, black, black, black, white, black, black, black, red, black, black, black, white, black, black, black, red, black, black, black, white, black, black, black, red, black, black, black, white, black, black, black, red, black, black, black, white, black, black, black, red, black);
+        }
