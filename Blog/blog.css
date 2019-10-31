@@ -10,8 +10,7 @@
         }
 
     .bloghead{ /*Word that says "Blog" at top*/
-        width: auto;
-        font-size: 9.5vh;
+        font-size: 9.5vmin;
         font-family: 'Fredericka the Great', cursive;
         position: absolute;
         top:0;
@@ -112,7 +111,6 @@
         width: 30%vw;
         position: absolute;
         left: 30%;
-        top:-15px;
         }
 
     p2{ /*Blogbox body text*/
