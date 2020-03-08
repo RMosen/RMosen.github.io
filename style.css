@@ -45,8 +45,7 @@
         }
 
     .gallery{
-        max-width: 35vw;
-        max-height: 60vh;
+        width: 35vw;
         height: auto;
         margin: 1vw;
         outline-width: 0.5vw;
