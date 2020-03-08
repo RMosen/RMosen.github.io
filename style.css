@@ -11,29 +11,66 @@
 <style>{}
 
     .text{
-        color: #fffee0;}
+        color: #fffee0;
+        }
 
-    .info{
+    .homeinfo{
         background-image:radial-gradient(#292929, #292929, #1a1a1a);
         background-size: contain;
+        
         outline-width: 1%;
         outline-style: outset;
         outline-color: navajowhite;
-        position: absolute;
+        
+        position:absolute;
         top: 50%;
         left: 50%;
         -moz-transform: translateX(-50%) translateY(-50%);
         -webkit-transform: translateX(-50%) translateY(-50%);
-         transform: translateX(-50%) translateY(-50%);}
+         transform: translateX(-50%) translateY(-50%);
+        }
+    
+    .scrollinfo{
+        background-image:radial-gradient(#292929, #292929, #1a1a1a);
+        background-size: contain;
+        
+        outline-width: 1%;
+        outline-style: outset;
+        outline-color: navajowhite;
+        
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        }
+
+    .gallery{
+        max-width: 35vw;
+        max-height: 60vh;
+        height: auto;
+        margin: 1vw;
+        outline-width: 0.5vw;
+        outline-style: double;
+        outline-color: yellow;
+        }
+
+    .homelogo{
+        max-width: 90vw;
+        max-height: 30vh;
+        height: auto;}
 
 
-</style>
+</style>{}
 
-    img{    /*Default Image Settings*/
-        display: block;
-        margin-left: auto;
-        margin-right: auto;}
 
+    h1{
+        color: red;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        font-size: 50px;
+        margin: 0;
+        margin-bottom: 7px;
+    }
 
     Body{
         background-image: 
@@ -42,9 +79,9 @@
         background-position:
             left,
             right;
-        background-size: 50vw 200vh, 50vw 200vh;
+        background-size: 50vw 400vh, 50vw 400vh;
 
-        background-repeat: no-repeat;}
+        background-repeat:repeat-y;}
         
 
 
