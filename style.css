@@ -8,27 +8,67 @@
         url('font/MyFont.ttf') format('truetype'),
         url('font/MyFont.svg') format('svg');}
 
-<style>{}
-
     .text{
         color: #fffee0;
         }
+
+@media (orientation: landscape) {
+    #alc{
+        width:auto;
+        height: 50000px;
+        max-height: 60vh;
+        max-width: 60vh;
+    }}
+
+@media (orientation: portrait) {
+    
+    @media (max-width: 66vh){ /*slim portrait*/
+        
+        #alc{
+            width:auto;
+            height: 50000px;
+            max-height: 98vw;
+            max-width: 98vw;
+            }
+    }
+    
+    @media (min-width: 66vh){ /*wide portrait*/
+        
+        #alc{
+            width:auto;
+            height: 50000px;
+            max-height: 68vh;
+            max-width: 68vh;
+            }
+    }
+}
+
+    .homelogo{
+        max-width: 90vw;
+        max-height: 30vh;
+        height: auto;}
 
     .homeinfo{
         background-image:radial-gradient(#292929, #292929, #1a1a1a);
         background-size: contain;
         
+        display: inline-block;
+        
         outline-width: 1%;
         outline-style: outset;
         outline-color: navajowhite;
         
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-         transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+        
+        
         }
+
+
     
     .scrollinfo{
         background-image:radial-gradient(#292929, #292929, #1a1a1a);
@@ -53,14 +93,6 @@
         outline-color: yellow;
         }
 
-    .homelogo{
-        max-width: 90vw;
-        max-height: 30vh;
-        height: auto;}
-
-
-</style>{}
-
 
     h1{
         color: red;
@@ -75,12 +107,7 @@
         background-image: 
             linear-gradient(-60deg, cyan, black, black, black, magenta, black, black, black, cyan, black, black, black, magenta, black, black, black, cyan, black, black, black, magenta, black, black, black),
             linear-gradient(60deg, cyan, black, black, black, magenta, black, black, black, cyan, black, black, black, magenta, black, black, black, cyan, black, black, black, magenta, black, black, black);
-        background-position:
-            left,
-            right;
-        background-size: 50vw 400vh, 50vw 400vh;
-
-        background-repeat:repeat-y;}
+        }
         
 
 
