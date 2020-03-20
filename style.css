@@ -8,9 +8,6 @@
         url('font/MyFont.ttf') format('truetype'),
         url('font/MyFont.svg') format('svg');}
 
-    .text{
-        color: #fffee0;
-        }
 
 @media (orientation: landscape) {
     #alc{
@@ -87,6 +84,8 @@
         margin-bottom: 3vh;
         margin-left: 10vw;
         margin-right: 10vw;
+        
+        padding-bottom: 20px;
         }
 
     .gallery{
@@ -108,11 +107,16 @@
         font-size: 75px;
         margin: 0;
         padding-bottom: 20px;
-    }
+        }
 
     p{
         padding: 10px;
-    }
+        color: #fffee0;
+        font-size: 25;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: left
+        }
 
     Body{
         background-image: url(pics/background.png);
