@@ -22,9 +22,8 @@
   
 <center>
 
-<div class="scrollinfo">
-    
-<a  href="index.html";><pic><img src="pics/mosencomlogo.png"; class="homelogo";></pic></a>
+<div class="scrollinfo">      
+    <pic><img src="pics/mosencomlogowords.png"; class="pagelogo"; usemap="#image-map"></pic>
     
 <h1>Title</h1>
     
@@ -34,5 +33,23 @@
     
 </center>
 
+    <map name="image-map">
+    <area target="" alt="Home" title="Home" href="http://richardmosen.com/" coords="327,32,866,358" shape="rect">
+    <area target="" alt="Mixing" title="Mixing" href="" coords="256,125,72" shape="circle">
+    <area target="" alt="Lighting" title="Lighting" href="" coords="117,203,73" shape="circle">
+    <area target="" alt="Podcast" title="Podcast" href="" coords="256,278,72" shape="circle">
+    <area target="" alt="About" title="About" href="" coords="947,126,72" shape="circle">
+    <area target="" alt="Contact" title="Contact" href="" coords="1089,201,72" shape="circle">
+    <area target="" alt="Projects" title="Projects" href="" coords="948,276,73" shape="circle">
+</map>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+    <script>
+        $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+    
 </body>
 </html> 

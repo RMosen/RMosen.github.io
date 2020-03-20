@@ -49,6 +49,11 @@
         max-height: 30vh;
         height: auto;}
 
+    .pagelogo{
+        max-width: 100%;
+         usemap="#image-map";
+        }
+
     .homeinfo{
         background-image:radial-gradient(#292929, #292929, #1a1a1a);
         background-size: contain;
