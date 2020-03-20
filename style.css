@@ -51,6 +51,7 @@
 
     .pagelogo{
         max-width: 75vw;
+        height: auto;
         }
 
     .homeinfo{
