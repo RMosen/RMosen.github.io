@@ -52,6 +52,7 @@
     .pagelogo{
         max-width: 75vw;
         height: auto;
+        padding-top: 20px;
         }
 
     .homeinfo{
@@ -99,14 +100,14 @@
 
 
     h1{
-        color: red;
-        font-family: 'Lobster', cursive;
+        background: -webkit-linear-gradient(#d10d0d, #730043);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Jokerman';
         font-weight: normal;
-        text-decoration: underline;
-        font-size: 50px;
+        font-size: 75px;
         margin: 0;
-        margin-bottom: 7px;
-        padding: 20px;
+        padding-bottom: 20px;
     }
 
     p{
