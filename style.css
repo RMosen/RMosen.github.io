@@ -50,8 +50,7 @@
         height: auto;}
 
     .pagelogo{
-        max-width: 100%;
-         usemap="#image-map";
+        max-width: 80vw;
         }
 
     .homeinfo{
