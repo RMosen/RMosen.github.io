@@ -5,6 +5,41 @@
 <link rel = "stylesheet"
        type = "text/css"
        href = "style.css" /> 
+    
+    <style>
+    
+        #container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 50px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            max-width: 600px;
+            max-height: 800px;
+            }
+        
+        #CALogobox{
+            grid-column: 1/2;
+            }
+        
+        #CADesc {
+            color: #fffee0;
+            font-size: 2.2vh;
+            text-align: left;
+            grid-column: 2/3;
+            margin-left: 13px;
+            }
+        
+        #calogo{ 
+            height:auto;
+            width: 100%;
+            
+            border: 3px;
+            border-style: outset;
+            border-color: deeppink;
+            }
+        
+    </style>
  
 </head> 
     
@@ -19,7 +54,21 @@
     <div class="scrollinfo">      
         <pic><img src="pics/mosencomlogowords.png"; class="pagelogo"; usemap="#image-map"></pic>
     
-        <h1>Title</h1>
+        <h1>Podcast</h1>
+        
+        <div id="container">
+            
+            <div id="CALogobox">
+                <pic><img src="pics/calogo.jpg" id="calogo"></pic>
+                </div>
+            
+            <div id="CADesc">
+                On Cover Act I review album art. We take a look at the art itself, the story and history behind the art, and how well the art fits with the album. So, if you're wanting to take a closer look at the art for one of your favorite albums, or discover something that you hadn't even heard of, give Cover Act a listen.
+            </div>
+        
+        </div>
+  
+        <iframe src="https://anchor.fm/coveract/embed/episodes/David-Bowie-Young-Americans-ec48dr/a-a1q73ve" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
     
     </div>  
     
