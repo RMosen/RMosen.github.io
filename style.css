@@ -1,13 +1,13 @@
 
 @font-face {
-    font-family: 'pix M 8pt';
-    src: url('font/MyFont.eot');
-    src: url('font/MyFont.eot?#iefix') format('embedded-opentype'),
-        url('font/MyFont.woff2') format('woff2'),
-        url('font/MyFont.woff') format('woff'),
-        url('font/MyFont.ttf') format('truetype'),
-        url('font/MyFont.svg') format('svg');}
-
+  font-family: Jokerman-Regular;
+  src: url('fonts/Jokerman-Regular.eot');
+  src: url('fonts/Jokerman-Regular.eot?') format('☺'),
+       url('fonts/Jokerman-Regular.woff') format('woff'),
+       url('fonts/Jokerman-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @media (orientation: landscape) {
     #alc{
@@ -108,7 +108,7 @@
         background: -webkit-linear-gradient(#d10d0d, #730043);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Jokerman';
+        font-family: 'Jokerman-Regular';
         font-weight: normal;
         font-size: 75px;
         margin: 0;
