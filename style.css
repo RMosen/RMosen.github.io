@@ -97,6 +97,12 @@
         outline-color: yellow;
         }
 
+    .caption{
+        font-size: 2vw;
+        color: lightgray;
+        font-family: sans-serif;
+        }
+
 
     h1{
         background: -webkit-linear-gradient(#d10d0d, #730043);
