@@ -97,7 +97,7 @@
         outline-color: yellow;
         }
 
-    .caption{
+    t{
         font-size: 2vw;
         color: lightgray;
         font-family: sans-serif;
@@ -114,7 +114,7 @@
         margin: 0;
         }
 
-    p{
+    words{
         padding: 10px;
         color: #fffee0;
         font-size: 25;
@@ -122,6 +122,12 @@
         padding-left: 50px;
         padding-right: 50px;
         text-align: left
+        }
+
+    p{
+        font-size: 2vw;
+        color: lightgray;
+        font-family: sans-serif;
         }
 
     Body{
