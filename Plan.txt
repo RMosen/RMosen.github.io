@@ -10,5 +10,4 @@ Website Home: 6 Sub pages
 
 To do:
 Upload Rat Barrell Pic
-Favicon
 Customise Header for individual page
