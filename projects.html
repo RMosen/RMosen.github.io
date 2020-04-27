@@ -1,10 +1,48 @@
 <html>
 <head>
-<title>Page Name</title>
+<title>Projects</title>
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel = "stylesheet"
        type = "text/css"
        href = "style.css" /> 
+    
+    <style>
+    
+        .bigbox{
+            width: 90%;
+            min-height: 30%;
+            max-height:80%;
+            display: grid;            
+            grid-template-columns: 1fr 1fr 1fr;            
+            margin: 0px;
+            margin-bottom: 20px;
+            
+            border: 3px;
+            border-color: azure;
+            border-style: ridge;
+            
+            background-color: grey;
+            }
+        
+        .picbox{
+            grid-column: 1/2;
+            margin: 6px;
+            
+            border: 3px;
+            border-color: azure;
+            border-style: ridge;
+            }
+        
+        .desc{
+            grid-column: 2/4;
+            margin: 6px;
+            
+            font-size: 2vh;
+            font-family: sans-serif;
+            text-align: left;
+            }
+        
+    </style>
  
 </head> 
     
@@ -16,12 +54,42 @@
   
 <center>
 
+    
+    
     <div class="scrollinfo">      
         <pic><img src="pics/mosencomlogowords.png"; class="pagelogo"; usemap="#image-map"></pic>
     
-        <h1>Title</h1>
+        <h1>Projects</h1>
+        
+        <p>Here are some of my miscellaneous projects</p>
+        
+        <!-- Bass Guitar -->
+        <div class="bigbox">
+            
+            <div class="picbox"><a href="pics/bass.jpg"><img src="pics/bass.jpg" class="prevpic"></a></div>
+            
+            <div class="desc">I made this guitar in 2019. I built it from a kit that I bought on ebay. The neck and body were pre-cut, but I had to handle cutting out the pick-guard, staining and finishing the body and neck, as well as generally assembling the piece.<br><br>
+            
+            I haven't really learned how to play it very well, but from what I can tell it does <i>play well</i>, if that makes sense.    
+            </div>
+            
+        </div>
+        
+        <!-- Ginger Beer -->
+        <div class="bigbox">
+            
+            <div class="picbox"><a href="pics/bass.jpg"><img src="pics/bass.jpg" class="prevpic"></a></div>
+            
+            <div class="desc">My girlfriend and I made this batch of ginger-beer around the end of 2019. We had made some homebrew before, but I think that this one was the best we’ve made. We named this ginger-beer “Forbidden Rat Barrel” because we wanted to.<br><br>
+            
+            The Ingredients are: Water, Sugar, Ginger, Orange, Cloves, Cinnamon, Tabasco Sauce, and Yeast. We were going for a combination of Christmas and Summer flavors when developing the recipe, and I think it turned out very well.  
+            </div>
+            
+        </div>
     
-    </div>  
+    </div>
+    
+    
     
 </center>
 
