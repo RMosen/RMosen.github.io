@@ -114,14 +114,14 @@
         margin: 0;
         }
 
-    words{
+    .words{
         padding: 10px;
         color: #fffee0;
         font-size: 25;
         font-family: sans-serif;
         padding-left: 50px;
         padding-right: 50px;
-        text-align: left
+        text-align: left;
         }
 
     p{
