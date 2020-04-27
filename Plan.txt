@@ -6,3 +6,10 @@ Website Home: 6 Sub pages
     4.contact
     5.DIY
     6.?
+
+
+To do:
+Nicer layout for contact me
+Make Projects Page
+Favicon
+Customise Header for individual page
