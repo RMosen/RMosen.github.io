@@ -9,35 +9,42 @@
     <style>
         #container{
             width: 90%;
-            height: 40%;
-            border: 3px;
-            border-color: aqua;
-            border-style: solid;
+            min-height: 30%;
+            max-height:90%;
             display: grid;            
             grid-template-columns: 1fr 1fr;            
-            margin: auto;
+            margin: 0px;
             }
         
         .prevbox{
-            margin: 5%;
             border: 3px;
-            border-color: aqua;
-            border-style: solid;
-            max-height: 90%;
+            border-color: aquamarine;
+            border-style: outset;
+            
+            margin: 5%;
+            min-height: 30vh;
+            max-height: 80%;
             max-width: 100%;
-            display: grid;            
-            grid-template-columns: 1fr 1fr;
-            margin: auto;
             overflow: hidden;
+            margin-bottom: 1%;
             }
         
-        .prevpic{
-            width: 100%;
-            height: auto;
+
+        
+        .titlebox{
+            max-height: 5vw;
             border: 3px;
-            border-color: aqua;
-            border-style: solid;
-            object-fit: cover;
+            border-color: aquamarine;
+            border-style: outset;
+            
+            background-color: aquamarine;
+            
+            font-size: 3.5vw;
+            font-family: sans-serif;
+            color: mediumpurple;
+            margin: 5%;
+            margin-top: 0px;
+            margin-bottom: 0px;
             }
     
     </style>
@@ -60,22 +67,30 @@
         
         
         <div id="container">
-            <div class="prevbox">
-                
-                <div ><img class="prevpic" src="https://lh3.googleusercontent.com/FH5XXFbX7kywUSgIlBKQveHhvZwuYNprPy8lnKDrtpdexiRkcVFtrNep9T5qBtgnRcl7NxrJTq22oh-0GSFodQtEAjFCvo1HUKtmsFls7kj-wLQ9udTtzPpf1-IaXPomUu5pzlS7baZp8I54QNfuhXt7_nSG9yMYaAMiScO4UfssJGNVL4HoSkPazOKih8R9qkILsY4FQ6_GimrgJ_EnVwmTEKOlj-_wxjDifZK6PoRDXpghRATMfR0QT1gBma4sfCxo0KQY5MaVLY_LPz4uNkfQYZrrSd2HXVvp8Xtl8aJmy9ulFNgPWC0eYGUa_Hwea6pJSVPONvp-W94VqlgpZ37QX2VvE12HxwTflZjqA36GFTew32BLYRE9c0pkKJxMl-1K53diRIuri48lxl6MLOtUTDADa_5KfgWjTIwoerhz4FNPjNWanpq4mtOIfiHJfe2DMdbOvZjSVzeuTwLVU9NU-KEo3IPgLo-zBiyIIObTl3_5AWiNBjCyziJdavxUXbOycF1hgdssiyRlrsLIVnfP7WxQgXLWTXKoF0opqj5weQ2QuOFpIivtQPJaDWFsE9L6MfDKTFOQ42uY7oZDwCcOPp3xhdkr_PkKi5QA20EjnXrYkcS7LOs6v8e8FL0-ReOJXhmWIHVK-faR9R8NimmYWTbbDvnJO8vfwow-gm-7JhJOxhRIKkSlRBxjRw3ZGojQZYYHJ7a2QHPmSyZULQ32ew51sfwruRaFJvTlwTS6jINonst_Vvs=w651-h976-no"></div>
-                
-                <div><img class="prevpic"src="https://lh3.googleusercontent.com/FH5XXFbX7kywUSgIlBKQveHhvZwuYNprPy8lnKDrtpdexiRkcVFtrNep9T5qBtgnRcl7NxrJTq22oh-0GSFodQtEAjFCvo1HUKtmsFls7kj-wLQ9udTtzPpf1-IaXPomUu5pzlS7baZp8I54QNfuhXt7_nSG9yMYaAMiScO4UfssJGNVL4HoSkPazOKih8R9qkILsY4FQ6_GimrgJ_EnVwmTEKOlj-_wxjDifZK6PoRDXpghRATMfR0QT1gBma4sfCxo0KQY5MaVLY_LPz4uNkfQYZrrSd2HXVvp8Xtl8aJmy9ulFNgPWC0eYGUa_Hwea6pJSVPONvp-W94VqlgpZ37QX2VvE12HxwTflZjqA36GFTew32BLYRE9c0pkKJxMl-1K53diRIuri48lxl6MLOtUTDADa_5KfgWjTIwoerhz4FNPjNWanpq4mtOIfiHJfe2DMdbOvZjSVzeuTwLVU9NU-KEo3IPgLo-zBiyIIObTl3_5AWiNBjCyziJdavxUXbOycF1hgdssiyRlrsLIVnfP7WxQgXLWTXKoF0opqj5weQ2QuOFpIivtQPJaDWFsE9L6MfDKTFOQ42uY7oZDwCcOPp3xhdkr_PkKi5QA20EjnXrYkcS7LOs6v8e8FL0-ReOJXhmWIHVK-faR9R8NimmYWTbbDvnJO8vfwow-gm-7JhJOxhRIKkSlRBxjRw3ZGojQZYYHJ7a2QHPmSyZULQ32ew51sfwruRaFJvTlwTS6jINonst_Vvs=w651-h976-no"></div>
-                
-                <div><img class="prevpic" src="https://lh3.googleusercontent.com/FH5XXFbX7kywUSgIlBKQveHhvZwuYNprPy8lnKDrtpdexiRkcVFtrNep9T5qBtgnRcl7NxrJTq22oh-0GSFodQtEAjFCvo1HUKtmsFls7kj-wLQ9udTtzPpf1-IaXPomUu5pzlS7baZp8I54QNfuhXt7_nSG9yMYaAMiScO4UfssJGNVL4HoSkPazOKih8R9qkILsY4FQ6_GimrgJ_EnVwmTEKOlj-_wxjDifZK6PoRDXpghRATMfR0QT1gBma4sfCxo0KQY5MaVLY_LPz4uNkfQYZrrSd2HXVvp8Xtl8aJmy9ulFNgPWC0eYGUa_Hwea6pJSVPONvp-W94VqlgpZ37QX2VvE12HxwTflZjqA36GFTew32BLYRE9c0pkKJxMl-1K53diRIuri48lxl6MLOtUTDADa_5KfgWjTIwoerhz4FNPjNWanpq4mtOIfiHJfe2DMdbOvZjSVzeuTwLVU9NU-KEo3IPgLo-zBiyIIObTl3_5AWiNBjCyziJdavxUXbOycF1hgdssiyRlrsLIVnfP7WxQgXLWTXKoF0opqj5weQ2QuOFpIivtQPJaDWFsE9L6MfDKTFOQ42uY7oZDwCcOPp3xhdkr_PkKi5QA20EjnXrYkcS7LOs6v8e8FL0-ReOJXhmWIHVK-faR9R8NimmYWTbbDvnJO8vfwow-gm-7JhJOxhRIKkSlRBxjRw3ZGojQZYYHJ7a2QHPmSyZULQ32ew51sfwruRaFJvTlwTS6jINonst_Vvs=w651-h976-no"></div>
-                
-                <div><img class="prevpic" src="https://lh3.googleusercontent.com/FH5XXFbX7kywUSgIlBKQveHhvZwuYNprPy8lnKDrtpdexiRkcVFtrNep9T5qBtgnRcl7NxrJTq22oh-0GSFodQtEAjFCvo1HUKtmsFls7kj-wLQ9udTtzPpf1-IaXPomUu5pzlS7baZp8I54QNfuhXt7_nSG9yMYaAMiScO4UfssJGNVL4HoSkPazOKih8R9qkILsY4FQ6_GimrgJ_EnVwmTEKOlj-_wxjDifZK6PoRDXpghRATMfR0QT1gBma4sfCxo0KQY5MaVLY_LPz4uNkfQYZrrSd2HXVvp8Xtl8aJmy9ulFNgPWC0eYGUa_Hwea6pJSVPONvp-W94VqlgpZ37QX2VvE12HxwTflZjqA36GFTew32BLYRE9c0pkKJxMl-1K53diRIuri48lxl6MLOtUTDADa_5KfgWjTIwoerhz4FNPjNWanpq4mtOIfiHJfe2DMdbOvZjSVzeuTwLVU9NU-KEo3IPgLo-zBiyIIObTl3_5AWiNBjCyziJdavxUXbOycF1hgdssiyRlrsLIVnfP7WxQgXLWTXKoF0opqj5weQ2QuOFpIivtQPJaDWFsE9L6MfDKTFOQ42uY7oZDwCcOPp3xhdkr_PkKi5QA20EjnXrYkcS7LOs6v8e8FL0-ReOJXhmWIHVK-faR9R8NimmYWTbbDvnJO8vfwow-gm-7JhJOxhRIKkSlRBxjRw3ZGojQZYYHJ7a2QHPmSyZULQ32ew51sfwruRaFJvTlwTS6jINonst_Vvs=w651-h976-no"></div>
-                
-                
+            <div class="prevbox"> 
+                <a href="https://richardmosen.com/gonebymorning">
+                    <div ><img class="prevpic" src="https://lh3.googleusercontent.com/FH5XXFbX7kywUSgIlBKQveHhvZwuYNprPy8lnKDrtpdexiRkcVFtrNep9T5qBtgnRcl7NxrJTq22oh-0GSFodQtEAjFCvo1HUKtmsFls7kj-wLQ9udTtzPpf1-IaXPomUu5pzlS7baZp8I54QNfuhXt7_nSG9yMYaAMiScO4UfssJGNVL4HoSkPazOKih8R9qkILsY4FQ6_GimrgJ_EnVwmTEKOlj-_wxjDifZK6PoRDXpghRATMfR0QT1gBma4sfCxo0KQY5MaVLY_LPz4uNkfQYZrrSd2HXVvp8Xtl8aJmy9ulFNgPWC0eYGUa_Hwea6pJSVPONvp-W94VqlgpZ37QX2VvE12HxwTflZjqA36GFTew32BLYRE9c0pkKJxMl-1K53diRIuri48lxl6MLOtUTDADa_5KfgWjTIwoerhz4FNPjNWanpq4mtOIfiHJfe2DMdbOvZjSVzeuTwLVU9NU-KEo3IPgLo-zBiyIIObTl3_5AWiNBjCyziJdavxUXbOycF1hgdssiyRlrsLIVnfP7WxQgXLWTXKoF0opqj5weQ2QuOFpIivtQPJaDWFsE9L6MfDKTFOQ42uY7oZDwCcOPp3xhdkr_PkKi5QA20EjnXrYkcS7LOs6v8e8FL0-ReOJXhmWIHVK-faR9R8NimmYWTbbDvnJO8vfwow-gm-7JhJOxhRIKkSlRBxjRw3ZGojQZYYHJ7a2QHPmSyZULQ32ew51sfwruRaFJvTlwTS6jINonst_Vvs=w651-h976-no"></div></a>    
             </div>
             
+            
             <div class="prevbox">
+                <a href="https://richardmosen.com/ohhello">
+                <div ><img class="prevpic" src="https://images.squarespace-cdn.com/content/v1/5aa87bbd1aef1d5490e2f8c3/1583109277843-GQGU8KCYSOSYKY9SLQ3L/ke17ZwdGBToddI8pDm48kCygInxVruGm9E_aMbqFdcZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIFS9P0ZlmmljzcHa7JSfCbCqV2hIcRMz7j3dLDWsfBJwKMshLAGzx4R3EDFOm1kBS/DSCF1039.jpg?format=500w"></div> </a>
             </div>
-        
+            
+            
+            <a href="https://richardmosen.com/gonebymorning">
+            <div class="titlebox">
+                Gone By Morning
+            </div>
+            </a>
+            
+            <a href="https://richardmosen.com/ohhello">
+            <div class="titlebox">
+                Oh Hello There
+            </div>
+            </a>
+            
         </div>
     
     </div>  

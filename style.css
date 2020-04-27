@@ -134,6 +134,12 @@
         background-color: purple;
         background-image: url(pics/background.png);
         }
+
+    .prevpic{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        }
         
 
 
