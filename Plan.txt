@@ -5,9 +5,6 @@ Website Home: 6 Sub pages
     3.About
     4.contact
     5.DIY
-    6.?
+    6.podcast
 
 
-To do:
-Upload Rat Barrell Pic
-Customise Header for individual page
