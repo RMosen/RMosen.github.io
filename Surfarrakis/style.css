@@ -1,0 +1,49 @@
+* { outline: red 1px solid; } 
+
+Body{
+        background-image: linear-gradient(to right,#c69c6d,#904a00);
+        margin: 0px;
+        }
+
+    img{
+        width: 100vw;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        }   
+
+    #header{
+        width: 100vw;
+        height: 100vh;
+        
+        background-image: url(pics/wormbg2.png);
+        background-size:auto;
+        background-repeat: no-repeat;
+        }
+
+
+    #gallery{
+        width: 100vw;
+        height: 100vh;
+        }
+
+    #booking{
+        width: 100vw;
+        height: 100vh;
+        
+        background-image: url(pics/dunebg2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        }
+
+
+    #about{
+        width: 100vw;
+        height: 100vh;
+        }
+
+    #reviews{
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(to right,#252426, #140e0b)
+        }
