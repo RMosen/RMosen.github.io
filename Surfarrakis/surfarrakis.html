@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Surf Arrakis</title>
@@ -6,6 +7,7 @@
            type = "text/css"
            href = "style.css" /> 
 </head>
+    
 <body>
     <div id=header>
 
@@ -14,28 +16,102 @@
     </div>
     
     <div id=headertext>
-    
+        <div class="link"><a href="#gallery">Gallery</a></div>
+        <div class="link"><a href="#booking">Booking</a></div>
+        <div class="link"><a href="#about">About</a></div>
+        <div class="link"><a href="#reviews">Reviews</a></div>
     </div>
     
     <div id=headerblurb>
-        <p>Guided Sand Worm Rides across Arrakis </p>
+        Guided Sand Worm Rides across Arrakis
     </div>
     
     
     <div id=gallery>
+        
+            <a href="pics/gal/pic01.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/1.png" class="galimg">
+            </a>
 
+            <a href="pics/gal/pic02.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/2.png" class="galimg">
+            </a>
+        
+            <a href="pics/gal/pic03.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/3.png" class="galimg">
+            </a>
+
+            <a href="pics/gal/pic04.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/4.png" class="galimg">
+            </a>
+        
+            <a href="pics/gal/pic05.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/5.png" class="galimg">
+            </a>
+
+            <a href="pics/gal/pic06.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/6.png" class="galimg">
+            </a>
+        
+            <a href="pics/gal/pic07.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/7.png" class="galimg">
+            </a>
+
+            <a href="pics/gal/pic08.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/8.png" class="galimg">
+            </a>
+        
+            <a href="pics/gal/pic09.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/9.png" class="galimg">
+            </a>
+
+            <a href="pics/gal/pic10.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/10.png" class="galimg">
+            </a>
+        
+            <a href="pics/gal/pic11.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/11.png" class="galimg">
+            </a>
+
+            <a href="pics/gal/pic12.jpg" class="lightbox_trigger">
+                <img src="pics/gal/Thumbnails/12.png" class="galimg">
+            </a>
+           
     </div>
     
     
     <div id=booking>
         <h1 id=bookingtext>Booking</h1>
+        <div id=bookingcontent>
+            <div class="bookinginfo">
+                Pricing<br><br>
+                
+                1-2 Riders: $6000 each<br>
+                3-6 Riders: $5000 each<br>
+                7-9 Riders: $4500 each<br>
+                10+ Riders: $4000 each
+            </div>
+            
+            <div class="bookinginfo">
+                <form>
+                  <label for="patronnum">Number of patrons:</label><br>
+                  <input type="number" id="patronnum" name="patronnum" value="2"><br>
+                  <label for="date">Date:</label><br>
+                  <input type="date" id="Date" name="date" min="10191-01-01" value="10191-01-01"><br><br>
+                </form>
+                
+                <button type="button" id="button" onclick="myButton()">Check Availability</button><br>
+                <div id="error" style="color: #7c0000"></div>
+            </div>
+        
+        </div>
             
     </div>
        
     
     <div id=about>
         <h1>About</h1>
-        <p>The native Fremen of Arrakis (also known as Dune) have been traveling the desert upon the backs of the great sand worms for generations. Now, by kind permission of Emperor Paul Maud’Dib Atreides, you can take part in this ancient Fremen tradition!  You will spend the day riding on the back of one of the Great Old Men of the Desert, guided by a trained Fremen worm-rider!</p>
+        <p id=aboutdesc>The native Fremen of Arrakis (also known as Dune) have been traveling the desert upon the backs of the great sand worms for generations. Now, by kind permission of Emperor Paul Maud’Dib Atreides, you can take part in this ancient Fremen tradition!  You will spend the day riding on the back of one of the Great Old Men of the Desert, guided by a trained Fremen worm-rider!</p>
     
     </div>
     
@@ -43,10 +119,83 @@
     <div id=reviews>
         <h1 id=reviewstext>Reviews</h1>
         
-        <h2 id=backtotop>Back To Top</h2>
+        
+        <div id="reviewzone">
+            <div class="reviewbox">I had a great time riding a sand worm!<br>★★★★☆</div>
+            <div class="reviewbox">My son was devoured by Shai Halud :(<br>★★☆☆☆</div>
+            <div class="reviewbox">Very nice trip! Word for the wise though, don’t cheap out when buying your still-suit, you’ll regret it after a couple days in the desert!</div>
+
+            <div class="reviewbox">The guides were very helpful and it was great to see the beautiful sand dunes. My favorite part wasgoing past the great sheild wall!</div>
+            <div class="reviewbox">Such a great trip! The guides are so knowledgeable when it comes to the sand worms and the planet! I would definately reccomend!<br>★★★★★</div>
+            <div class="reviewbox">Warning! Don’t go on this trip if you get motion sick! The sand worms are by no means a smoth ride, and once you’re departed they can’t take you back until the end of the day. I honestly had an awful time, but the rest of my party seemed to enjoy it.</div>
+
+            <div class="reviewbox">Pretty much the only interesting thing to do on Dune. Riding the worm is pretty fun, but just looking at sand for hours on end does get pretty boring.<br>★★★☆☆</div>
+            <div class="reviewbox">Great trip! My family had a great day!</div>
+            <div class="reviewbox">You can’t beat riding the worm! When I was a boy, I thouight that I would never get the oppourtunity, but now that emperor Paul has allowed the general public to ride the sand worms my dream can come true! I’ve gone on this trip three times and it’s always an awesome experence! You won’t regret surfing Arrakis!</div>
+        </div>
+        
+        <div id=backtotop><a href="#header">Back To Top</a></div>
     </div>
+
+<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+<script>
+jQuery(document).ready(function($) {
+	
+	$('.lightbox_trigger').click(function(e) {
+		
+		//prevent default action (hyperlink)
+		e.preventDefault();
+		
+		//Get clicked link href
+		var image_href = $(this).attr("href");
+		
+		/* 	
+		If the lightbox window HTML already exists in document, 
+		change the img src to to match the href of whatever link was clicked
+		
+		If the lightbox window HTML doesn't exists, create it and insert it.
+		(This will only happen the first time around)
+		*/
+		
+		if ($('#lightbox').length > 0) { // #lightbox exists
+			
+			//place href as img src value
+			$('#content').html('<img src="' + image_href + '" />');
+		   	
+			//show lightbox window - you could use .show('fast') for a transition
+			$('#lightbox').show();
+		}
+		
+		else { //#lightbox does not exist - create and insert (runs 1st time only)
+			
+			//create HTML markup for lightbox window
+			var lightbox = 
+			'<div id="lightbox">' +
+				'<p>Click to close</p>' +
+				'<div id="content">' + //insert clicked link's href into img src
+					'<img src="' + image_href +'" />' +
+				'</div>' +	
+			'</div>';
+				
+			//insert lightbox HTML into page
+			$('body').append(lightbox);
+		}
+		
+	});
+	
+	//Click anywhere on the page to get rid of lightbox window
+	$('#lightbox').live('click', function() { //must use live, as the lightbox element is inserted into the DOM
+		$('#lightbox').hide();
+	});
+
+});
+</script>
     
-
-
+<script>
+function myButton() { 
+  document.getElementById("error").innerHTML = "Sorry, we're fully booked on that day";
+}
+</script>
+    
 </body>
 </html>
